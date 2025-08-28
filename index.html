@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Anywhere - Acesso Remoto Simplificado</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        .cta-button {
+            background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(79, 172, 254, 0.4);
+        }
+    </style>
+</head>
+<body class="gradient-bg text-gray-100 font-sans">
+    
+    <header class="py-6 px-4 sm:px-10 lg:px-20">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="fas fa-desktop text-3xl text-blue-400 mr-3"></i>
+                <h1 class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-teal-400 bg-clip-text text-transparent">PC Anywhere</h1>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#features" class="hover:text-blue-300 transition">Recursos</a>
+                <a href="#how-it-works" class="hover:text-blue-300 transition">Como Funciona</a>
+                <a href="#pricing" class="hover:text-blue-300 transition">Preços</a>
+                <a href="#contact" class="hover:text-blue-300 transition">Contato</a>
+            </nav>
+            <button class="md:hidden text-xl">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    
+    <section class="py-20 px-4 sm:px-10 lg:px-20 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Controle Seu Computador de Qualquer Lugar</h2>
+            <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">PC Anywhere oferece acesso remoto rápido, seguro e fácil de usar para seus dispositivos, esteja você em casa, no escritório ou em movimento.</p>
+            <button class="cta-button py-4 px-8 rounded-full font-bold text-lg mx-2 mb-4">Experimente Agora - Grátis</button>
+            <button class="border border-blue-400 py-4 px-8 rounded-full font-bold text-lg mx-2 mb-4 hover:bg-blue-900/30 transition">Assista ao Vídeo</button>
+        </div>
+        <div class="mt-16 max-w-5xl mx-auto bg-gray-800 rounded-xl p-2 shadow-2xl">
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="PC Anywhere em ação" class="rounded-lg w-full h-auto">
+        </div>
+    </section>
+
+    
+    <section id="features" class="py-20 px-4 sm:px-10 lg:px-20 bg-gray-900/50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-16">Recursos Poderosos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <div class="feature-card bg-gray-800 p-8 rounded-xl transition duration-300">
+                    <div class="text-blue-400 text-4xl mb-4">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Conexão Rápida</h3>
+                    <p class="text-gray-300">Tecnologia de baixa latência para uma experiência suave, mesmo em conexões mais lentas.</p>
+                </div>
+                
+                
+                <div class="feature-card bg-gray-800 p-8 rounded-xl transition duration-300">
+                    <div class="text-blue-400 text-4xl mb-4">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Segurança de Nível Bancário</h3>
+                    <p class="text-gray-300">Criptografia de ponta a ponta para proteger seus dados e privacidade.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature-card bg-gray-800 p-8 rounded-xl transition duration-300">
+                    <div class="text-blue-400 text-4xl mb-4">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Suporte Multiplataforma</h3>
+                    <p class="text-gray-300">Conecte-se de qualquer dispositivo: Windows, Mac, Linux, iOS e Android.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="feature-card bg-gray-800 p-8 rounded-xl transition duration-300">
+                    <div class="text-blue-400 text-4xl mb-4">
+                        <i class="fas fa-file-transfer"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Transferência de Arquivos</h3>
+                    <p class="text-gray-300">Envie e receba arquivos entre dispositivos com apenas alguns cliques.</p>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="feature-card bg-gray-800 p-8 rounded-xl transition duration-300">
+                    <div class="text-blue-400 text-4xl mb-4">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Sessões Colaborativas</h3>
+                    <p class="text-gray-300">Permita que outros visualizem ou controlem sua sessão para suporte técnico.</p>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="feature-card bg-gray-800 p-8 rounded-xl transition duration-300">
+                    <div class="text-blue-400 text-4xl mb-4">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Conexão Direta</h3>
+                    <p class="text-gray-300">Funciona mesmo sem servidores intermediários para máxima privacidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="py-20 px-4 sm:px-10 lg:px-20">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-16">Como Funciona</h2>
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-10">
+                    <div class="mb-8 flex">
+                        <div class="text-blue-400 text-2xl mr-4 font-bold">1</div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Baixe e Instale</h3>
+                            <p class="text-gray-300">Instale o PC Anywhere em ambos os dispositivos - o que você quer acessar e o que você vai usar para acessar.</p>
+                        </div>
+                    </div>
+                    <div class="mb-8 flex">
+                        <div class="text-blue-400 text-2xl mr-4 font-bold">2</div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Conecte-se</h3>
+                            <p class="text-gray-300">Digite o ID único do dispositivo remoto ou escaneie o código QR para uma conexão rápida.</p>
+                        </div>
+                    </div>
+                    <div class="mb-8 flex">
+                        <div class="text-blue-400 text-2xl mr-4 font-bold">3</div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Controle Remoto</h3>
+                            <p class="text-gray-300">Após a autenticação, você terá controle total do dispositivo remoto como se estivesse sentado na frente dele.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 bg-gray-800 rounded-xl p-4 shadow-xl">
+                    <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1478&q=80" alt="Demonstração do PC Anywhere" class="rounded-lg w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 px-4 sm:px-10 lg:px-20 bg-gray-900/50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-4">Planos Acessíveis</h2>
+            <p class="text-xl text-center text-gray-300 mb-16">Escolha o plano que melhor atende às suas necessidades</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Free Plan -->
+                <div class="bg-gray-800 rounded-xl p-8">
+                    <h3 class="text-2xl font-bold mb-4">Grátis</h3>
+                    <p class="text-4xl font-bold mb-6">R$0<span class="text-lg text-gray-400">/mês</span></p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Acesso pessoal</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> 1 dispositivo</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Sessões de até 1 hora</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Transferência de arquivos básica</li>
+                        <li class="flex items-center"><i class="fas fa-times text-red-400 mr-2"></i> Sem suporte prioritário</li>
+                    </ul>
+                    <button class="w-full py-3 px-6 border border-blue-400 rounded-lg hover:bg-blue-900/30 transition">Começar</button>
+                </div>
+                
+                <!-- Pro Plan -->
+                <div class="bg-gray-800 rounded-xl p-8 border-2 border-blue-400 transform scale-105 relative">
+                    <div class="absolute top-0 right-0 bg-blue-400 text-gray-900 px-4 py-1 rounded-bl-lg rounded-tr-lg font-bold">Popular</div>
+                    <h3 class="text-2xl font-bold mb-4">Profissional</h3>
+                    <p class="text-4xl font-bold mb-6">R$29,90<span class="text-lg text-gray-400">/mês</span></p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Até 3 dispositivos</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Sessões ilimitadas</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Transferência de arquivos avançada</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Suporte prioritário</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Acesso remoto à área de trabalho</li>
+                    </ul>
+                    <button class="cta-button w-full py-3 px-6 rounded-lg">Assinar</button>
+                </div>
+                
+                <!-- Business Plan -->
+                <div class="bg-gray-800 rounded-xl p-8">
+                    <h3 class="text-2xl font-bold mb-4">Empresarial</h3>
+                    <p class="text-4xl font-bold mb-6">R$99,90<span class="text-lg text-gray-400">/mês</span></p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Dispositivos ilimitados</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Gerenciamento centralizado</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Relatórios detalhados</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Suporte 24/7</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> API para integração</li>
+                    </ul>
+                    <button class="w-full py-3 px-6 border border-blue-400 rounded-lg hover:bg-blue-900/30 transition">Fale Conosco</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 px-4 text-center">
+        <div class="max-w-4xl mx-auto bg-gray-800 rounded-xl p-10">
+            <h2 class="text-3xl font-bold mb-6">Pronto para Experimentar?</h2>
+            <p class="text-xl text-gray-300 mb-10">Baixe agora e comece a acessar seus dispositivos remotamente em minutos. Sem compromisso, sem cartão de crédito necessário.</p>
+            <button class="cta-button py-4 px-12 rounded-full font-bold text-lg">Baixar Versão Gratuita</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="py-12 px-4 sm:px-10 lg:px-20 bg-gray-900">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-desktop text-2xl text-blue-400 mr-3"></i>
+                    <h3 class="text-xl font-bold">PC Anywhere</h3>
+                </div>
+                <p class="text-gray-400">A solução mais simples e segura para acesso remoto a computadores.</p>
+                <div class="flex space-x-4 mt-4">
+                    <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+            <div>
+                <h4 class="text-lg font-bold mb-4">Produto</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-blue-400">Recursos</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-blue-400">Planos</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-blue-400">Download</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-blue-400">Atualizações</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="text-lg font-bold mb-4">Suporte</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-blue-400">Central de Ajuda</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-blue-400">Tutoriais</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-blue-400">FAQ</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-blue-400">Contato</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="text-lg font-bold mb-4">Contato</h4>
+                <ul class="space-y-2">
+                    <li class="flex items-center text-gray-400"><i class="fas fa-envelope mr-2"></i> contato@pcanywhere.com</li>
+                    <li class="flex items-center text-gray-400"><i class="fas fa-phone mr-2"></i> (11) 1234-5678</li>
+                    <li class="flex items-center text-gray-400"><i class="fas fa-map-marker-alt mr-2"></i> São Paulo, Brasil</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="max-w-6xl mx-auto border-t border-gray-800 mt-12 pt-8 text-center text-gray-500">
+            <p>© 2023 PC Anywhere. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Mobile menu toggle would go here
+        // document.querySelector('.mobile-menu-button').addEventListener('click', function() {
+        //     document.querySelector('.mobile-menu').classList.toggle('hidden');
+        // });
+    </script>
+</body>
+</html>
